@@ -1,0 +1,53 @@
+### Maven ###
+output/
+target/
+ensemble/data/*.csv
+scripts/*.csv
+data/train.csv
+*.csv
+
+### eclipse ###
+.settings/
+.metadata/
+
+### TA Framework ###
+logs/
+Logs/
+test-output/
+Reports/
+artefact/
+database/
+derbyDB/
+derby.log
+xtend-gen/
+xtend/
+failed-events.log
+velocity.log/
+velocity.log
+
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+*.eml
+.idea/
+
+### Gradle ###
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+.project
+.classpath
+/bin/
+
+# Environments
+.artifact
+.env 
+.venv 
+env/
+venv/
